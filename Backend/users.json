@@ -1,0 +1,15 @@
+[
+  {
+    "username": "junaidkaliyadan@gmail.com",
+    "email": "junaidkaliyadan@gmail.com",
+    "password": "123",
+    "created_at": "2025-03-29T15:53:57.300939"
+  },
+  {
+    "username": "ann susan peter",
+    "email": "sannsusanpeter@gmail.com",
+    "password": "scrypt:32768:8:1$RmkZzOPIYc5jy6ka$059a27f6312b7573f2b34fee38bc113856d3a157617b088d49a98682198bcc48f7ad7575dbd9c37cb6cc3f10e16ad52b5d520485b4b2f7455dcb3c0e0bb03c43",
+    "created_at": "2026-08-22T13:00:24.893126+00:00",
+    "_id": "6a899d68604c94d9fe34d469"
+  }
+]

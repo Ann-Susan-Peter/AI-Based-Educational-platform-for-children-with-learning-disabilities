@@ -1,0 +1,549 @@
+/* AssessmentPanel.css */
+
+/* Main container styles */
+.assessment-panel {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.assessment-panel h2 {
+  color: #3b82f6;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Error message styling */
+.error-message {
+  background-color: #fee2e2;
+  color: #ef4444;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Camera container */
+.camera-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.camera-toggle-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.camera-toggle-button:hover {
+  background-color: #2563eb;
+}
+
+/* Tab navigation */
+.assessment-tabs {
+  display: flex;
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  font-weight: 500;
+  color: #6b7280;
+  transition: all 0.2s ease;
+  font-size: 16px;
+  flex: 1;
+  text-align: center;
+}
+
+.tab-button:hover {
+  color: #3b82f6;
+}
+
+.tab-button.active {
+  color: #3b82f6;
+  border-bottom: 3px solid #3b82f6;
+}
+
+/* Tab content styling */
+.assessment-content {
+  background-color: #f9fafb;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 400px;
+}
+
+.assessment-tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-instructions {
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 600px;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+/* Start button styling */
+.start-task-button {
+  background-color: #10b981;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.start-task-button:hover {
+  background-color: #059669;
+  transform: translateY(-2px);
+}
+
+/* Number comparison task */
+.number-display-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.trial-counter {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.number-instruction {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.number-options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.number-button {
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #3b82f6;
+  color: white;
+  width: 120px;
+  height: 120px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.number-button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+/* Task complete message */
+.task-complete-message {
+  text-align: center;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #d1fae5;
+  border-radius: 8px;
+  color: #065f46;
+}
+
+/* Handwriting canvas */
+.canvas-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.drawing-canvas {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  cursor: crosshair;
+}
+
+.canvas-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tool-button {
+  background-color: #6b7280;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tool-button:hover {
+  background-color: #4b5563;
+}
+
+.canvas-hint {
+  font-size: 14px;
+  color: #6b7280;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Letter arrangement task */
+.letter-arrangement-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.letter-task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.letter-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+  background-color: #dbeafe;
+  border-radius: 8px;
+  min-height: 80px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.letter-tile {
+  width: 50px;
+  height: 50px;
+  background-color: #3b82f6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: grab;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  user-select: none;
+}
+
+.letter-drop-zone {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+  background-color: #eff6ff;
+  border: 2px dashed #3b82f6;
+  border-radius: 8px;
+  min-height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-placeholder {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.arranged-letter {
+  width: 50px;
+  height: 50px;
+  background-color: #2563eb;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arrangement-instruction {
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Analyze button */
+.analyze-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.analyze-button:hover {
+  background-color: #2563eb;
+}
+
+.analyze-button.loading {
+  background-color: #93c5fd;
+  cursor: wait;
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Results summary */
+.results-summary {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results-summary h3 {
+  color: #3b82f6;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.result-section {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.result-section:last-child {
+  border-bottom: none;
+}
+
+.result-section h4 {
+  color: #4b5563;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* AssessmentCamera specific styles */
+.absolute {
+  position: absolute;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.bg-blue-100 {
+  background-color: #dbeafe;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.space-x-1 > * + * {
+  margin-left: 0.25rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.bg-green-500 {
+  background-color: #10b981;
+}
+
+.text-white {
+  color: white;
+}
+
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
+
+.relative {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.text-green-600 {
+  color: #059669;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .number-options {
+    gap: 20px;
+  }
+  
+  .number-button {
+    width: 90px;
+    height: 90px;
+    font-size: 28px;
+  }
+  
+  .letter-tile, .arranged-letter {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .tab-button {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}

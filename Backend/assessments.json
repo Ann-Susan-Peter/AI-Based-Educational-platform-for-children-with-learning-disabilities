@@ -1,0 +1,2171 @@
+[
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-22T14:38:46.656919+00:00",
+    "emotions": [
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Happiness",
+      "Disgust",
+      "Sadness",
+      "Sadness",
+      "Neutral",
+      "Sadness",
+      "Neutral",
+      "Happiness",
+      "Neutral",
+      "Sadness",
+      "Surprise",
+      "Happiness",
+      "Sadness",
+      "Sadness",
+      "Sadness",
+      "Sadness"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 4,
+        "accuracyPercentage": "80.0",
+        "averageResponseTimeSeconds": "7.46"
+      },
+      "interpretation": "Good work! You got 80% right. Sometimes picking the bigger number takes a little extra thought.",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 1,
+            "num2": 10,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "8.46"
+        },
+        {
+          "pair": {
+            "num1": 13,
+            "num2": 5,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "25.09"
+        },
+        {
+          "pair": {
+            "num1": 17,
+            "num2": 1,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.04"
+        },
+        {
+          "pair": {
+            "num1": 11,
+            "num2": 5,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.55"
+        },
+        {
+          "pair": {
+            "num1": 9,
+            "num2": 18,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "1.14"
+        }
+      ],
+      "suggested_next_steps": [
+        "Try simple counting games.",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Lines look a bit shaky."
+      ],
+      "indicators": [
+        {
+          "type": "Fine Motor Area",
+          "description": "Making smooth lines might need more practice."
+        }
+      ],
+      "interpretation": "The drawing shows Lines look a bit shaky.. Making smooth lines might need more practice. This is common when learning to write!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260822200846.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "dog",
+        "user_arrangement": "dog"
+      },
+      "accuracy": true,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 3
+      },
+      "interpretation": "Yes! You correctly spelled \"dog\". Great job!",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Try slightly longer words next time!",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-22T14:38:46.072Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:35:59.366Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:03.562Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:08.834Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:13.521Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:18.897Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:23.521Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:28.855Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:33.515Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:38.875Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:43.533Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:48.848Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:53.464Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:36:58.854Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:37:03.539Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:37:08.878Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:37:13.529Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:37:18.862Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:37:23.688Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-22T14:37:28.763Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Disgust",
+        "timestamp": "2026-08-22T14:37:33.494Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:37:38.752Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:37:43.465Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:37:48.771Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:37:53.433Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:37:58.749Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-22T14:38:03.447Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-22T14:38:08.774Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:38:13.453Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-22T14:38:18.998Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-22T14:38:23.463Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:38:28.821Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:38:33.452Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:38:38.797Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-22T14:38:43.530Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a89b4772dd22b71efb2df23"
+  },
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-23T06:39:59.833428+00:00",
+    "emotions": [
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Sadness",
+      "Neutral"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 3,
+        "accuracyPercentage": "60.0",
+        "averageResponseTimeSeconds": "1.18"
+      },
+      "interpretation": "Good work! You got 60% right. Sometimes picking the bigger number takes a little extra thought.",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 7,
+            "num2": 5,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.93"
+        },
+        {
+          "pair": {
+            "num1": 8,
+            "num2": 9,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "0.85"
+        },
+        {
+          "pair": {
+            "num1": 12,
+            "num2": 15,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "0.83"
+        },
+        {
+          "pair": {
+            "num1": 14,
+            "num2": 12,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "0.94"
+        },
+        {
+          "pair": {
+            "num1": 5,
+            "num2": 15,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.37"
+        }
+      ],
+      "suggested_next_steps": [
+        "Play games comparing groups of objects (more/less).",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Good effort forming shapes/letters!"
+      ],
+      "indicators": [],
+      "interpretation": "Looks like good practice forming shapes and lines!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260823120959.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "run",
+        "user_arrangement": "run"
+      },
+      "accuracy": true,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 3
+      },
+      "interpretation": "Yes! You correctly spelled \"run\". Great job!",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Try slightly longer words next time!",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-23T06:39:59.232Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:39:21.537Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:39:25.635Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:39:30.950Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:39:35.637Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:39:40.966Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:39:45.652Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:39:50.992Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:39:55.659Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a8a95c0329c1ec084ed8e75"
+  },
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-23T06:50:24.936957+00:00",
+    "emotions": [
+      "Sadness",
+      "Neutral",
+      "Sadness",
+      "Sadness",
+      "Sadness",
+      "Sadness",
+      "Neutral",
+      "Fear",
+      "Sadness",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Sadness",
+      "Sadness",
+      "Sadness",
+      "Sadness",
+      "Sadness",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Sadness",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 5,
+        "accuracyPercentage": "100.0",
+        "averageResponseTimeSeconds": "26.84"
+      },
+      "interpretation": "Good work! You got 100% right. Sometimes picking the bigger number takes a little extra thought.",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 6,
+            "num2": 3,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "127.25"
+        },
+        {
+          "pair": {
+            "num1": 2,
+            "num2": 19,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "2.54"
+        },
+        {
+          "pair": {
+            "num1": 3,
+            "num2": 4,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.43"
+        },
+        {
+          "pair": {
+            "num1": 12,
+            "num2": 5,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.28"
+        },
+        {
+          "pair": {
+            "num1": 11,
+            "num2": 15,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.68"
+        }
+      ],
+      "suggested_next_steps": [
+        "Try simple counting games.",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Good effort forming shapes/letters!"
+      ],
+      "indicators": [],
+      "interpretation": "Looks like good practice forming shapes and lines!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260823122024.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "red",
+        "user_arrangement": "red"
+      },
+      "accuracy": true,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 3
+      },
+      "interpretation": "Yes! You correctly spelled \"red\". Great job!",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Try slightly longer words next time!",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-23T06:50:24.294Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:44:47.798Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:45:34.594Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:45:42.563Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:45:47.240Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:45:52.422Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:45:57.279Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:46:02.448Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:46:07.076Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:46:12.630Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:46:17.082Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:46:22.428Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:46:27.287Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:46:32.450Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:46:37.217Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Fear",
+        "timestamp": "2026-08-23T06:46:47.203Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:46:52.399Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:00.562Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:05.934Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:10.611Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:15.915Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:20.762Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:26.035Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:30.724Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:36.047Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:40.740Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:47:46.051Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:47:50.595Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:47:55.867Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:48:00.586Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:48:05.879Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:48:10.596Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:15.892Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:20.567Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:26.078Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:30.627Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:35.893Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:40.580Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:45.864Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T06:48:50.587Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:48:55.903Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:00.645Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:06.108Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:10.687Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:15.980Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:20.796Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:26.108Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:30.809Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:36.101Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:40.824Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:46.137Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:50.806Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:49:56.066Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:50:00.875Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:50:06.106Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:50:10.818Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:50:16.130Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:50:20.791Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a8a9831329c1ec084ed8e76"
+  },
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-23T06:51:44.878438+00:00",
+    "emotions": [
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 4,
+        "accuracyPercentage": "80.0",
+        "averageResponseTimeSeconds": "1.39"
+      },
+      "interpretation": "Great job! You're quick and accurate at finding the bigger number.",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 18,
+            "num2": 12,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.61"
+        },
+        {
+          "pair": {
+            "num1": 9,
+            "num2": 16,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.36"
+        },
+        {
+          "pair": {
+            "num1": 4,
+            "num2": 12,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.35"
+        },
+        {
+          "pair": {
+            "num1": 15,
+            "num2": 8,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.21"
+        },
+        {
+          "pair": {
+            "num1": 6,
+            "num2": 15,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "1.40"
+        }
+      ],
+      "suggested_next_steps": [
+        "Try simple counting games.",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Shapes/letters vary in size."
+      ],
+      "indicators": [
+        {
+          "type": "Visual-Motor Area",
+          "description": "Keeping sizes the same can be tricky."
+        }
+      ],
+      "interpretation": "The drawing shows Shapes/letters vary in size.. Keeping sizes the same can be tricky. This is common when learning to write!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260823122144.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "top",
+        "user_arrangement": "top"
+      },
+      "accuracy": true,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 3
+      },
+      "interpretation": "Yes! You correctly spelled \"top\". Great job!",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Try slightly longer words next time!",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-23T06:51:44.292Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:51:11.805Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:51:17.105Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:51:21.764Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:51:27.090Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:51:31.795Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:51:37.118Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T06:51:41.778Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a8a9881329c1ec084ed8e77"
+  },
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-23T09:28:01.736229+00:00",
+    "emotions": [
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Happiness",
+      "Sadness",
+      "Fear",
+      "Sadness",
+      "Fear",
+      "Surprise",
+      "Neutral",
+      "Surprise",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Happiness",
+      "Happiness",
+      "Neutral",
+      "Happiness",
+      "Surprise",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Neutral",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 4,
+        "accuracyPercentage": "80.0",
+        "averageResponseTimeSeconds": "2.13"
+      },
+      "interpretation": "Great job! You're quick and accurate at finding the bigger number.",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 6,
+            "num2": 3,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.85"
+        },
+        {
+          "pair": {
+            "num1": 20,
+            "num2": 5,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.13"
+        },
+        {
+          "pair": {
+            "num1": 1,
+            "num2": 12,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.86"
+        },
+        {
+          "pair": {
+            "num1": 9,
+            "num2": 3,
+            "correctChoice": "num1"
+          },
+          "selection": "num2",
+          "isCorrect": false,
+          "responseTime": "4.61"
+        },
+        {
+          "pair": {
+            "num1": 1,
+            "num2": 15,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.18"
+        }
+      ],
+      "suggested_next_steps": [
+        "Try simple counting games.",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Lines look a bit shaky."
+      ],
+      "indicators": [
+        {
+          "type": "Fine Motor Area",
+          "description": "Making smooth lines might need more practice."
+        }
+      ],
+      "interpretation": "The drawing shows Lines look a bit shaky.. Making smooth lines might need more practice. This is common when learning to write!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260823145801.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "run",
+        "user_arrangement": "run"
+      },
+      "accuracy": true,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 3
+      },
+      "interpretation": "Yes! You correctly spelled \"run\". Great job!",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Try slightly longer words next time!",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-23T09:27:55.953Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:25:09.595Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:25:11.112Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:25:14.586Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:25:15.822Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:25:16.541Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:25:18.618Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:25:24.646Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:25:29.204Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:25:33.835Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:25:38.148Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:25:47.176Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:25:51.536Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:25:54.049Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:25:59.647Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:26:05.406Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:09.078Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:15.699Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:26:20.192Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:26.856Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:29.117Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:34.516Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:26:41.176Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:44.239Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:26:49.163Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:57.376Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:26:59.326Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:27:04.637Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:27:09.084Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:27:14.440Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:27:33.679Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:27:35.421Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:27:48.956Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a8abd2e3f0a31ad9c176a5d"
+  },
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-23T09:44:10.098324+00:00",
+    "emotions": [
+      "Neutral",
+      "Neutral",
+      "Happiness",
+      "Happiness",
+      "Happiness",
+      "Surprise",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Sadness",
+      "Happiness",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Happiness",
+      "Happiness",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Happiness",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Neutral",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Happiness",
+      "Sadness",
+      "Neutral",
+      "Happiness",
+      "Happiness",
+      "Neutral",
+      "Happiness",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Happiness",
+      "Neutral",
+      "Disgust",
+      "Sadness",
+      "Sadness",
+      "Neutral",
+      "Happiness",
+      "Fear",
+      "Neutral"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 4,
+        "accuracyPercentage": "80.0",
+        "averageResponseTimeSeconds": "5.55"
+      },
+      "interpretation": "Good work! You got 80% right. Sometimes picking the bigger number takes a little extra thought.",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 18,
+            "num2": 3,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "17.03"
+        },
+        {
+          "pair": {
+            "num1": 1,
+            "num2": 11,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.22"
+        },
+        {
+          "pair": {
+            "num1": 20,
+            "num2": 13,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.22"
+        },
+        {
+          "pair": {
+            "num1": 19,
+            "num2": 7,
+            "correctChoice": "num1"
+          },
+          "selection": "num2",
+          "isCorrect": false,
+          "responseTime": "5.38"
+        },
+        {
+          "pair": {
+            "num1": 16,
+            "num2": 5,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "2.91"
+        }
+      ],
+      "suggested_next_steps": [
+        "Try simple counting games.",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Shapes/letters vary in size."
+      ],
+      "indicators": [
+        {
+          "type": "Visual-Motor Area",
+          "description": "Keeping sizes the same can be tricky."
+        }
+      ],
+      "interpretation": "The drawing shows Shapes/letters vary in size.. Keeping sizes the same can be tricky. This is common when learning to write!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260823151410.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "sky",
+        "user_arrangement": "sky"
+      },
+      "accuracy": true,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 3
+      },
+      "interpretation": "Yes! You correctly spelled \"sky\". Great job!",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Try slightly longer words next time!",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-23T09:44:09.402Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:41:16.255Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:41:16.548Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:41:16.561Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T09:41:17.238Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:41:17.786Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:41:22.388Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:41:29.248Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:41:35.543Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:41:37.390Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:41:41.900Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:41:46.530Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T09:41:52.755Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:41:57.880Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:42:03.908Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Disgust",
+        "timestamp": "2026-08-23T09:42:07.061Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T09:42:11.838Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T09:42:16.531Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:42:22.746Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T09:42:28.038Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Fear",
+        "timestamp": "2026-08-23T09:42:32.830Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T09:42:38.911Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a8ac0ec3f0a31ad9c176a5e"
+  },
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-23T10:04:48.851683+00:00",
+    "emotions": [
+      "Sadness",
+      "Neutral",
+      "Sadness",
+      "Neutral",
+      "Happiness",
+      "Happiness",
+      "Surprise",
+      "Neutral",
+      "Neutral",
+      "Surprise",
+      "Neutral"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 4,
+        "accuracyPercentage": "80.0",
+        "averageResponseTimeSeconds": "2.61"
+      },
+      "interpretation": "Good work! You got 80% right. Sometimes picking the bigger number takes a little extra thought.",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 15,
+            "num2": 6,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "6.93"
+        },
+        {
+          "pair": {
+            "num1": 11,
+            "num2": 12,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "1.00"
+        },
+        {
+          "pair": {
+            "num1": 15,
+            "num2": 7,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "2.32"
+        },
+        {
+          "pair": {
+            "num1": 14,
+            "num2": 10,
+            "correctChoice": "num1"
+          },
+          "selection": "num1",
+          "isCorrect": true,
+          "responseTime": "1.24"
+        },
+        {
+          "pair": {
+            "num1": 6,
+            "num2": 18,
+            "correctChoice": "num2"
+          },
+          "selection": "num2",
+          "isCorrect": true,
+          "responseTime": "1.58"
+        }
+      ],
+      "suggested_next_steps": [
+        "Try simple counting games.",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Good effort forming shapes/letters!"
+      ],
+      "indicators": [],
+      "interpretation": "Looks like good practice forming shapes and lines!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260823153448.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "bus",
+        "user_arrangement": "bus"
+      },
+      "accuracy": true,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 3
+      },
+      "interpretation": "Yes! You correctly spelled \"bus\". Great job!",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Try slightly longer words next time!",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-23T10:04:43.095Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T10:03:16.245Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T10:03:16.257Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:03:16.315Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:03:16.315Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:03:17.537Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:03:22.301Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T10:03:30.619Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:03:33.045Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:03:46.183Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T10:03:52.565Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:03:53.644Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a8ac5c53f0a31ad9c176a5f"
+  },
+  {
+    "userId": "6a899d68604c94d9fe34d469",
+    "userEmail": "sannsusanpeter@gmail.com",
+    "created_at": "2026-08-23T10:45:16.506265+00:00",
+    "emotions": [
+      "Surprise",
+      "Happiness",
+      "Sadness",
+      "Neutral",
+      "Happiness",
+      "Happiness",
+      "Surprise",
+      "Neutral",
+      "Surprise",
+      "Neutral",
+      "Fear",
+      "Happiness",
+      "Sadness",
+      "Happiness",
+      "Happiness",
+      "Fear",
+      "Happiness",
+      "Happiness",
+      "Disgust",
+      "Happiness",
+      "Surprise",
+      "Sadness",
+      "Happiness",
+      "Neutral",
+      "Surprise",
+      "Neutral"
+    ],
+    "numberComparison": {
+      "taskType": "Number Comparison",
+      "summary": {
+        "totalTrials": 5,
+        "correctCount": 0,
+        "accuracyPercentage": "0.0",
+        "averageResponseTimeSeconds": "2.17"
+      },
+      "interpretation": "Finding the bigger number seemed a bit tricky (0% correct). Keep practicing, number games can help!",
+      "detailedTrials": [
+        {
+          "pair": {
+            "num1": 1,
+            "num2": 17,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "4.91"
+        },
+        {
+          "pair": {
+            "num1": 4,
+            "num2": 2,
+            "correctChoice": "num1"
+          },
+          "selection": "num2",
+          "isCorrect": false,
+          "responseTime": "1.66"
+        },
+        {
+          "pair": {
+            "num1": 5,
+            "num2": 16,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "1.36"
+        },
+        {
+          "pair": {
+            "num1": 4,
+            "num2": 3,
+            "correctChoice": "num1"
+          },
+          "selection": "num2",
+          "isCorrect": false,
+          "responseTime": "1.65"
+        },
+        {
+          "pair": {
+            "num1": 2,
+            "num2": 15,
+            "correctChoice": "num2"
+          },
+          "selection": "num1",
+          "isCorrect": false,
+          "responseTime": "1.28"
+        }
+      ],
+      "suggested_next_steps": [
+        "Play games comparing groups of objects (more/less).",
+        "Use number lines to see which numbers are bigger.",
+        "Talk about numbers during everyday activities (like counting snacks)."
+      ]
+    },
+    "handwriting": {
+      "taskType": "Handwriting",
+      "characteristics": [
+        "Lines look a bit shaky."
+      ],
+      "indicators": [
+        {
+          "type": "Fine Motor Area",
+          "description": "Making smooth lines might need more practice."
+        }
+      ],
+      "interpretation": "The drawing shows Lines look a bit shaky.. Making smooth lines might need more practice. This is common when learning to write!",
+      "suggested_next_steps": [
+        "Practice drawing shapes like circles and squares.",
+        "Use fun materials like play-doh or finger paint.",
+        "Try tracing letters or shapes.",
+        "Activities like using scissors or stringing beads can help too!"
+      ],
+      "imageData": "handwriting_sannsusanpeter@gmail.com_20260823161516.png"
+    },
+    "letterArrangement": {
+      "taskType": "Letter Arrangement",
+      "input": {
+        "original_word": "map",
+        "user_arrangement": "pam"
+      },
+      "accuracy": false,
+      "letter_sequence_analysis": {
+        "transpositions": 0,
+        "correct_placement": 1
+      },
+      "interpretation": "Good try! The word was \"map\". Putting letters in the right order can be tricky.",
+      "suggested_next_steps": [
+        "Play letter sound games (what sound does 'c' make?).",
+        "Practice spelling simple words with letter tiles or magnets.",
+        "Keep practicing with 3-letter words.",
+        "Read simple picture books together."
+      ]
+    },
+    "completedAt": "2026-08-23T10:45:16.165Z",
+    "emotionTrackingData": [
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T10:42:19.673Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:42:23.976Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T10:42:29.440Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:42:33.887Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:42:39.199Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:42:43.910Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T10:42:49.188Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:42:53.917Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T10:42:59.312Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:43:03.926Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Fear",
+        "timestamp": "2026-08-23T10:43:09.216Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:43:13.866Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T10:43:19.243Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:43:23.989Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:43:29.184Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Fear",
+        "timestamp": "2026-08-23T10:43:33.881Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:43:39.191Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:43:43.922Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Disgust",
+        "timestamp": "2026-08-23T10:43:53.906Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:43:59.219Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T10:44:03.868Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Sadness",
+        "timestamp": "2026-08-23T10:44:09.260Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Happiness",
+        "timestamp": "2026-08-23T10:44:13.909Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:44:19.223Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Surprise",
+        "timestamp": "2026-08-23T10:44:23.916Z",
+        "task": "number-comparison"
+      },
+      {
+        "emotion": "Neutral",
+        "timestamp": "2026-08-23T10:44:29.228Z",
+        "task": "number-comparison"
+      }
+    ],
+    "gemini_response": {
+      "error": "LD Analysis failed",
+      "details": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}"
+    },
+    "_id": "6a8acf3dca7c94a93f39b7af"
+  }
+]

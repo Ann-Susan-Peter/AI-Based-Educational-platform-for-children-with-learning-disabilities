@@ -1,0 +1,340 @@
+/* AssesmentCamera.css - Inline Sensor Card Below Assessment */
+
+.emotion-camera-widget {
+  width: 100%;
+  margin-top: 24px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  transition: all 0.25s ease-in-out;
+}
+
+.emotion-camera-widget.minimized {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+}
+
+/* Header */
+.camera-widget-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.camera-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.live-indicator {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #10b981;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  animation: pulse-green 2s infinite;
+}
+
+.live-indicator.paused {
+  background-color: #f59e0b;
+  animation: none;
+  box-shadow: none;
+}
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(16, 185, 129, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
+.camera-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e3a8a;
+  letter-spacing: 0.2px;
+}
+
+.camera-subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.camera-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.camera-ctrl-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+  line-height: 1;
+}
+
+.camera-ctrl-btn:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-color: #94a3b8;
+}
+
+.camera-ctrl-btn.active-pause {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #dc2626;
+}
+
+.camera-ctrl-btn.active-play {
+  background: #dcfce7;
+  border-color: #86efac;
+  color: #16a34a;
+}
+
+.camera-ctrl-btn.close-btn:hover {
+  background: #fee2e2;
+  color: #dc2626;
+  border-color: #fca5a5;
+}
+
+/* Minimized Pill View */
+.minimized-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.minimized-pill:hover {
+  background: #f1f5f9;
+}
+
+.minimized-pill-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pill-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.pill-emoji {
+  font-size: 18px;
+}
+
+.pill-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.pill-expand-btn {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pill-expand-btn:hover {
+  background: #dbeafe;
+}
+
+/* Main Body Grid: Camera + Feedback */
+.camera-body-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 16px;
+  padding: 14px 16px;
+  background: #fafbfc;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .camera-body-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Video Preview Container */
+.video-preview-wrapper {
+  position: relative;
+  width: 100%;
+  background: #0f172a;
+  height: 140px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.camera-video-feed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scaleX(-1); /* Mirror camera feed */
+  transition: opacity 0.3s ease;
+}
+
+.camera-video-feed.paused {
+  opacity: 0.4;
+  filter: grayscale(80%);
+}
+
+.paused-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.75);
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 4px;
+}
+
+.floating-emotion-tag {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 16px;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Real-time feedback column */
+.emotion-status-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.emotion-status-heading {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #64748b;
+}
+
+.emotion-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.emotion-card-emoji {
+  font-size: 26px;
+}
+
+.emotion-card.happy {
+  background: #f0fdf4;
+  border-color: #86efac;
+  color: #166534;
+}
+
+.emotion-card.sad, .emotion-card.fear {
+  background: #f0f9ff;
+  border-color: #7dd3fc;
+  color: #0369a1;
+}
+
+.emotion-card.angry, .emotion-card.disgust {
+  background: #fef2f2;
+  border-color: #fca5a5;
+  color: #991b1b;
+}
+
+.emotion-card.surprise {
+  background: #fefce8;
+  border-color: #fde047;
+  color: #854d0e;
+}
+
+.emotion-label-text {
+  flex: 1;
+}
+
+.emotion-detected-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.emotion-detected-subtitle {
+  font-size: 11px;
+  color: #64748b;
+  margin-top: 1px;
+}
+
+.emotion-support-hint {
+  font-size: 12px;
+  color: #475569;
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Below Assessment wrapper */
+.assessment-bottom-sensor {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sensor-toggle-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
